@@ -1,0 +1,16 @@
+def mostrar_tabuleiro():
+    """
+    Mostar o tabuleiro atual
+    """
+    print('/n')
+    print(''.join(linha_1))
+    print(''.join(linha_2))
+    print(''.join(linha_3))
+    print(''.join(linha_4))
+
+def inicio_de_jogo():
+    """
+    Núcleo do jogo
+    """
+
+    print(Bem vindo ao jogo! Vamos Jogar)

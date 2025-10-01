@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <button onclick="calcularIMC()">Calcular IMC</button>
+
+    <script>
+        function calcularIMC() {
+            const converterNumero = valor => parseFloat(valor.replace(',', '.'));
+
+            for (;;) {  
+                const peso = converterNumero(prompt("Qual é o seu peso em kg?"));
+                const altura = converterNumero(prompt("Qual é a sua altura em metros (ex: 1.75)?"));
+
+                if (peso <= 0 || altura <= 0 || isNaN(peso) || isNaN(altura)) {
+                    alert("Erro: Você deve inserir números positivos para peso e altura.");
+                    continue; 
+                }
+
+                const imc = peso / (altura * altura);
+                alert("Seu IMC é: " + imc.toFixed(2));
+
+                if (imc < 18.5) {
+                    alert("Classificação: Abaixo do peso");
+                } else if (imc < 25) {
+                    alert("Classificação: Peso normal");
+                } else if (imc < 30) {
+                    alert("Classificação: Sobrepeso");
+                } else if (imc < 35) {
+                    alert("Classificação: Obesidade grau I");
+                } else if (imc < 40) {
+                    alert("Classificação: Obesidade grau II");
+                } else {
+                    alert("Classificação: Obesidade grau III");
+                }
+
+                
+                const resposta = prompt("Quer calcular outro IMC? (sim/não)").toLowerCase();
+                if (resposta !== 'sim' && resposta !== 's') {
+                    alert("Obrigado por usar a calculadora!");
+                    break; 
+                }
+            }
+        }
+    </script>
+</body>
+</html>

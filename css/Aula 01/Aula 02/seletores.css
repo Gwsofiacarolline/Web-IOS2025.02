@@ -1,0 +1,38 @@
+/*Para invocar um ID do HTML dentro do CDD colocamos o # antes do nome do ID, como no exemplo abaixo em que selecionamos apenas o paragrafo que tem o id #assinatura */
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+#assinatura{
+    font-size: 29px;
+    background-color: pink;
+    color: black; 
+    
+
+}
+
+#rosa{
+    font-size: 29px;
+    background-color: pink;
+    color: black; 
+    
+}
+
+#roxo{
+    font-size: 29px;
+    background-color:purple;
+    color: black; 
+    
+}
+
+p{
+    font-size: 29px;
+    background-color: black;
+    color: rgb(72, 154, 226);
+    
+}

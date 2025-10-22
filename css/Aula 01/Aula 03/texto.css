@@ -1,0 +1,41 @@
+/*Para o usar uma fonte da internet podemos usa o @IMPORT do site especificado. No exemplo abaixo utilizamos o site google fonts para importat e ultilizar uma nova font-family */
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=BBH+Sans+Hegarty&display=swap');
+
+body { 
+    background-color: #e6e6fa; 
+    color: #191970; 
+
+    font-family: Arial, Verdana, sans-serif; 
+} 
+h1 { 
+    background-color: #ebebf5; 
+    color: #7878df; 
+    font-family: "BBH Sans Bogle", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    /*primeiro valor deslocamento horizontal; segundo valor deslocamento vertical; terceiro valor desfoque; quarto valor cor da sombra*/
+    text-shadow: -10px 20px 05px;
+
+} 
+
+h2 { 
+    background-color: #aeaed4; 
+    font-family: Georgia, "Times New Roman", serif;
+    letter-spacing: 10px; 
+    text-align: justify;
+    
+
+} 
+
+p{
+    font-family: "BBH Sans Bogle", sans-serif;
+    text-align: justify;
+}
+
+footer { 
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+} 
+
+

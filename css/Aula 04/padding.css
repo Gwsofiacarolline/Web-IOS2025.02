@@ -1,0 +1,19 @@
+h1{
+    background-color: blueviolet;
+    border: 5px solid black;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.quadrado{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    background-image: url(https://i.pinimg.com/474x/95/74/3d/95743d639b4ea4d15c740d7a973c548f.jpg);
+    background-size: cover;
+    border: 10px solid black;
+    margin-left: 20px;
+}
+
+
+

@@ -1,0 +1,35 @@
+/*reset básico do CSS*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#descricao{
+    background-color:bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-size: cover;
+    text-align: center;
+}
+
+#paragrafo1{
+    background-color:bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-size: cover;
+    text-align: center;
+
+}
+
+/*nessa regra apenas o que esta me lista receberá a alteração abaixo*/
+li p{
+    background-color:aquamarine;
+}
+
+/*todo o paragrafo que esttiver dentro de um <li> que está dentro de uma <ol> receberá o design abaixo*/
+ol li p{
+    background-color:blueviolet;
+}
+
+

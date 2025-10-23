@@ -1,0 +1,33 @@
+
+h1{
+    background-color: #ebebf5; 
+    
+    /*border-width determina o tamnho da borda*/
+    border-width: 10px;
+    
+    /*border-color determina a cor*/
+    border-color: black;
+    
+    /*border-styledetermina o fomato da borda*/
+    border-style:double;
+    
+    /*border-radius aredonda a borda*/
+    border-radius: 10px;
+
+
+    color: #7878df; 
+    font-family: "BBH Sans Bogle", sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+#footer{ 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*podemos criar bordas de maniera abrevida ultilizando apenas a propriedade border.
+border recebe 3 valores, sendo eles: tamanho(10px) tipo(double) cor(black)*/
+#serie{
+    border: 10px black double;
+}

@@ -1,0 +1,57 @@
+*{
+    
+        padding: 0;
+        margin: 0;
+     
+}
+
+
+
+header{
+    background-color:rgb(174, 0, 255);
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around
+    ;
+    font-family: "BBH Sans Bogle", sans-serif;
+   
+}
+
+.quadrado{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1PX black;
+    margin: 20px;
+    box-sizing: border-box;
+    
+    
+
+}
+
+#container{
+    background-color: black;
+    height: 600px;
+    font-family: "BBH Sans Bogle", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+h2{
+  color: blue;
+  width: 200px;
+  
+}
+
+button{
+    height: 50px;
+    width: 100px;
+}
